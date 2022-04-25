@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nameless.WinForms", "src\Na
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA678405-3498-44FC-996F-6F706CDAE597}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nameless.Logging.Log4net", "src\Nameless.Logging.Log4net\Nameless.Logging.Log4net.csproj", "{B8AEA3B8-5DED-4E3A-AD27-748E74156C39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{CCBD6D46-6E56-4D22-A718-52D4BB70CF2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCBD6D46-6E56-4D22-A718-52D4BB70CF2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCBD6D46-6E56-4D22-A718-52D4BB70CF2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AEA3B8-5DED-4E3A-AD27-748E74156C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AEA3B8-5DED-4E3A-AD27-748E74156C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AEA3B8-5DED-4E3A-AD27-748E74156C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AEA3B8-5DED-4E3A-AD27-748E74156C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CCBD6D46-6E56-4D22-A718-52D4BB70CF2C} = {FA678405-3498-44FC-996F-6F706CDAE597}
+		{B8AEA3B8-5DED-4E3A-AD27-748E74156C39} = {FA678405-3498-44FC-996F-6F706CDAE597}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4EB03A47-D47C-43E9-8B89-C7D9F2D7929B}

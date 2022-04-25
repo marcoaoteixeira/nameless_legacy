@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Nameless.Logging.Log4net</id>
+        <version>1.0.0</version>
+        <title>Nameless Logging Log4net Funcionalities</title>
+        <authors>Marco Antonio Orestes Teixeira</authors>
+        <owners>Nameless</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <projectUrl>https://github.com/marcoaoteixeira/nameless</projectUrl>
+        <description>Nameless Logging Log4net Funcionalities</description>
+        <copyright>MIT</copyright>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="readme.md" target="readme.md" />
+    </files>
+</package>
